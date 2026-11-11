@@ -19,6 +19,16 @@ This tool streamlines local script signing and verification into an interactive 
 ## Usage
 
 1. Download `CodeSigningCertCreator_FullScript.bat` and double-click it to launch the menu.
-2. **Option 1 (Create a Certificate):** Enter a name (letters, numbers, hyphens, or underscores) to generate a new code-signing certificate and install it into your user trust stores. Follow the Windows confirmation prompt to trust the root certificate.
-3. **Option 2 (Sign a File):** Select your certificate from the Windows Security pop-up window, choose your target script or executable from the file browser, and the tool will apply the Authenticode signature.
-4. **Option 3 (Verify a File):** Choose any file from the file browser to display a full verification report showing its SHA-256 hash, signature validity, signer details, and timestamp status.
+   <img width="531" height="200" alt="image" src="https://github.com/user-attachments/assets/40f40ba7-d505-43fc-837e-d5159a509b12" />
+
+3. **Option 1 (Create a Certificate):** Enter a name (letters, numbers, hyphens, or underscores) to generate a new code-signing certificate and install it into your user trust stores. Follow the Windows confirmation prompt to trust the root certificate.
+   <img width="1073" height="704" alt="image" src="https://github.com/user-attachments/assets/57860753-f1c7-4eb9-91f1-f8653ab9754f" />
+
+5. **Option 2 (Sign a File):** Select your certificate from the Windows Security pop-up window, choose your target script or executable from the file browser, and the tool will apply the Authenticode signature.
+   <img width="788" height="335" alt="image" src="https://github.com/user-attachments/assets/7503519e-b34b-4fea-b4a4-09be7e2c9b97" />
+   <img width="801" height="288" alt="image" src="https://github.com/user-attachments/assets/a4679bac-201f-4e88-8e9b-33915496dd9c" />
+
+7. **Option 3 (Verify a File):** Choose any file from the file browser to display a full verification report showing its SHA-256 hash, signature validity, signer details, and timestamp status.
+   <img width="768" height="336" alt="image" src="https://github.com/user-attachments/assets/88736131-6133-4fb5-85dd-ae78d9b6d381" />
+
+   
