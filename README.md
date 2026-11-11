@@ -11,6 +11,9 @@ Running PowerShell scripts under secure execution policies like `AllSigned` or `
 
 This tool streamlines local script signing and verification into an interactive menu while keeping your environment secure. All certificates are strictly scoped to your `CurrentUser` certificate stores (`Personal`, `Trusted Root`, and `Trusted Publishers`) with non-exportable private keys, meaning you may never need Administrator privileges to create or trust a certificate, and other accounts on the machine aren't affected.
 
+### IMPORTANT:
+This tool is wonderful for use on homemade, harmless executables - things that you may be using for your own projects, maybe your own set of tool scripts, or just general applications that you may be in the process of developing. DO NOT expect the self-signed certs to make your computer and AV automatically trust any third party file you get off of the internet, as this is actually rarely the case (especially since modern AV almost always use behavioral analysis of some kind). To add to that, you should always have at least some degree of caution for runnable files you get online that you didn't make; you should not just sign off on every file you download (this should be basic knowledge of cyber security, but you never know what someone will do).
+
 ## Features
 
 * **Single-File Hybrid Launcher:** Combines a Batch wrapper and PowerShell script into one portable `.bat` file that launches in Single-Threaded Apartment (`-Sta`) mode with zero external dependencies.
