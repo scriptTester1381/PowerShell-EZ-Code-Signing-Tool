@@ -25,10 +25,10 @@ This tool streamlines local script signing and verification into an interactive 
 * **Signature & Hash Verification:** Audits any selected file by checking its Authenticode status (`Valid`, `HashMismatch`, `NotTrusted`, or `NotSigned`), signer subject, thumbprint, timestamp authority, and SHA-256 file hash.
 
 ## Usage
-
-1. Download `CodeSigningCertCreator_FullScript.bat` and double-click it to launch the menu.
 > [!NOTE]
 > Depending on PC policies in place, there is a small chance that you won't have the ability to execute the Batch file without admin rights. This should not happen in majority of cases, but if it does, the ways to go about fixing it can vary from person to person.
+
+1. Download `CodeSigningCertCreator_FullScript.bat` and double-click it to launch the menu.
    <img width="531" height="200" alt="image" src="https://github.com/user-attachments/assets/40f40ba7-d505-43fc-837e-d5159a509b12" />
 
 3. **Option 1 (Create a Certificate):** Enter a name (letters, numbers, hyphens, or underscores) to generate a new code-signing certificate and install it into your user trust stores. Follow the Windows confirmation prompt to trust the root certificate.
