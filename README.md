@@ -2,6 +2,9 @@
 
 A lightweight, self-contained Windows utility for creating local self-signed code-signing certificates, signing scripts or binaries, and verifying Authenticode signatures and SHA-256 hashes through the Windows GUI. Packaged as a single hybrid `.bat`/`.ps1` file, it runs with a double-click without requiring you to weaken your system-wide PowerShell Execution Policy (running as admin may be necessary depending on how your system is set up).
 
+### SUPPORT FOR SIGNING AND VALIDATING .bat & .sh FILES HAS NOT BEEN ADDED YET! 
+### Apologies in advance...
+
 ## Why Use This?
 
 Running PowerShell scripts under secure execution policies like `AllSigned` or `RemoteSigned` is great for security, but generating self-signed certificates, importing them into the right certificate stores, and typing out `Set-AuthenticodeSignature` or `Get-AuthenticodeSignature` commands every time you edit or audit a script gets tedious fast. With the amount of times I found myself manually doing each one of those steps just to run tests, I eventually figured I could probably speed up the whole process with a simple script.
